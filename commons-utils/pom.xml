@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>commons-utils</artifactId>
+	<parent>
+		<groupId>nl.idgis.commons</groupId>
+		<artifactId>idgis-commons</artifactId>
+		<version>0.1.9</version>
+	</parent>
+	<packaging>jar</packaging>
+
+	<name>utils</name>
+	<url>http://maven.apache.org</url>
+
+	<!-- development organisation -->
+	<developers>
+		<developer>
+			<name>Rob Stekelenburg</name>
+			<email>rob.stekelenburg@IDgis.nl</email>
+			<roles>
+				<role>Developer</role>
+				<role>Designer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+	</dependencies>
+</project>
